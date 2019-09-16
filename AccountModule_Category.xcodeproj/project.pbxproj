@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		218B23084B601C173BCD1596 /* libPods-AccountModule_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 774A08C75516569532C05961 /* libPods-AccountModule_Category.a */; };
 		CA43A121232F7AD100164977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A120232F7AD100164977 /* AppDelegate.m */; };
 		CA43A124232F7AD100164977 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A123232F7AD100164977 /* ViewController.m */; };
 		CA43A127232F7AD100164977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA43A125232F7AD100164977 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		CA43A12F232F7AD200164977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A12E232F7AD200164977 /* main.m */; };
 		CA43A139232F7AD200164977 /* AccountModule_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A138232F7AD200164977 /* AccountModule_CategoryTests.m */; };
 		CA43A144232F7AD200164977 /* AccountModule_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A143232F7AD200164977 /* AccountModule_CategoryUITests.m */; };
+		CA43A153232F7D7B00164977 /* CCMediator+AccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CA43A152232F7D7B00164977 /* CCMediator+AccountModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A6086B59AB9BE0F31D815DE /* Pods-AccountModule_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category.release.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category/Pods-AccountModule_Category.release.xcconfig"; sourceTree = "<group>"; };
+		30F5760BC6ECC9C5065282A4 /* Pods-AccountModule_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountModule_Category.debug.xcconfig"; path = "Target Support Files/Pods-AccountModule_Category/Pods-AccountModule_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		774A08C75516569532C05961 /* libPods-AccountModule_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountModule_Category.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA43A11C232F7AD100164977 /* AccountModule_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountModule_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA43A11F232F7AD100164977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA43A120232F7AD100164977 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		CA43A13F232F7AD200164977 /* AccountModule_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountModule_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA43A143232F7AD200164977 /* AccountModule_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountModule_CategoryUITests.m; sourceTree = "<group>"; };
 		CA43A145232F7AD200164977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA43A151232F7D7B00164977 /* CCMediator+AccountModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCMediator+AccountModule.h"; sourceTree = "<group>"; };
+		CA43A152232F7D7B00164977 /* CCMediator+AccountModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCMediator+AccountModule.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218B23084B601C173BCD1596 /* libPods-AccountModule_Category.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A441D0BB2709E51B994519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774A08C75516569532C05961 /* libPods-AccountModule_Category.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C69DA1A0F5D4EEC966863D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30F5760BC6ECC9C5065282A4 /* Pods-AccountModule_Category.debug.xcconfig */,
+				2A6086B59AB9BE0F31D815DE /* Pods-AccountModule_Category.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CA43A113232F7AD100164977 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				CA43A137232F7AD200164977 /* AccountModule_CategoryTests */,
 				CA43A142232F7AD200164977 /* AccountModule_CategoryUITests */,
 				CA43A11D232F7AD100164977 /* Products */,
+				A8C69DA1A0F5D4EEC966863D /* Pods */,
+				07A441D0BB2709E51B994519 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,8 @@
 				CA43A120232F7AD100164977 /* AppDelegate.m */,
 				CA43A122232F7AD100164977 /* ViewController.h */,
 				CA43A123232F7AD100164977 /* ViewController.m */,
+				CA43A151232F7D7B00164977 /* CCMediator+AccountModule.h */,
+				CA43A152232F7D7B00164977 /* CCMediator+AccountModule.m */,
 				CA43A125232F7AD100164977 /* Main.storyboard */,
 				CA43A128232F7AD200164977 /* Assets.xcassets */,
 				CA43A12A232F7AD200164977 /* LaunchScreen.storyboard */,
@@ -139,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA43A148232F7AD200164977 /* Build configuration list for PBXNativeTarget "AccountModule_Category" */;
 			buildPhases = (
+				A101FABBFE4233DA6E9B027D /* [CP] Check Pods Manifest.lock */,
 				CA43A118232F7AD100164977 /* Sources */,
 				CA43A119232F7AD100164977 /* Frameworks */,
 				CA43A11A232F7AD100164977 /* Resources */,
@@ -257,6 +287,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A101FABBFE4233DA6E9B027D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccountModule_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA43A118232F7AD100164977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +319,7 @@
 			files = (
 				CA43A124232F7AD100164977 /* ViewController.m in Sources */,
 				CA43A12F232F7AD200164977 /* main.m in Sources */,
+				CA43A153232F7D7B00164977 /* CCMediator+AccountModule.m in Sources */,
 				CA43A121232F7AD100164977 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +489,7 @@
 		};
 		CA43A149232F7AD200164977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F5760BC6ECC9C5065282A4 /* Pods-AccountModule_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +506,7 @@
 		};
 		CA43A14A232F7AD200164977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6086B59AB9BE0F31D815DE /* Pods-AccountModule_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
