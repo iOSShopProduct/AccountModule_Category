@@ -7,14 +7,12 @@
 //
 
 #import "CCMediator+AccountModule.h"
-
-@implementation CCMediator (AccountModule)
 NSString * const MediatorTargetAccount = @"Account";
 NSString * const MediatorActionAccountLoginViewController = @"nativeLoginViewController";
 NSString * const MediatorActionAccountLoginStatus = @"nativeLoginStatus";
 NSString * const MediatorActionAccountLoginStatusChangeNotification = @"nativeLoginStatusChangeNotificationName";
-
 @implementation CCMediator (AccountModule)
+
 /**
  *登陆(presentViewController)
  **/

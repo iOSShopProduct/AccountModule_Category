@@ -6,7 +6,7 @@
 //  Copyright © 2019 曹鹏飞. All rights reserved.
 //
 
-#import "CCMediator.h"
+#import <CCMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
